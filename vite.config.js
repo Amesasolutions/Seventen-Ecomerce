@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, 'src/index.js'),
+        main: path.resolve(__dirname, 'src/main.jsx'),
         '**/*.jsx': path.resolve(__dirname, 'src/**/*.jsx'),
       },
       // ...other rollup options
