@@ -3,10 +3,10 @@ import {
   Route,
   Routes,
   Navigate,
-  json,
+
 } from "react-router-dom";
 
-import Home from "./pages/home/Home";
+import Home from "./pages/home/home";
 import Order from "./pages/Order/Order";
 import Cart from "./pages/cart/Cart";
 import Dashboard from "./pages/admin/dashboard/Dashboard";
